@@ -1,0 +1,11 @@
+# Local secrets — never commit
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Automation / cron logs
+logs/
+*.log
