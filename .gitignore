@@ -6,9 +6,9 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
-# Automation / cron logs
+# Runtime / cron logs (regenerable via automation)
 logs/
 *.log
 
-# Generated hunting logs and reports (do not track)
-daily-logs/
+# Local test artifacts (not produced by daily_runner.sh)
+reports/test_crypto_workflow/

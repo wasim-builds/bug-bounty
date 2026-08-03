@@ -106,9 +106,9 @@ include live API keys, internal IPs, or other secrets in log/note fields.
 
 ## Security
 
-- Never commit secrets, API keys, or `.env` contents. The repo has a `.env`
-  file for local secrets — it must stay out of any PR (add it to `.gitignore`
-  if missing).
+- **Local secrets**: the repo ships a `.env.example` template. Copy it to `.env`
+  for local config and **never commit `.env`** — it is untracked via `.gitignore`
+  and removed from git history (`git rm --cached .env`).
 - Only scan targets you own or that have an active bounty / authorization.
 - Do not store raw vulnerability payloads that could be misused in public
   logs without redacting sensitive values.
