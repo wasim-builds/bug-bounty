@@ -1,0 +1,52 @@
+# Bug Bounty Targets — Add your own targets here
+# One URL per line. Must include query parameters for scanner to work.
+# WARNING: Only test targets within the official bug bounty program scope.
+# Get program scope from: https://hackerone.com or https://bugcrowd.com
+
+# ============================================================================
+# GOOGLE VRP (https://bughunters.google.com)
+# Scope: *.google.com, *.blogger.com, *.youtube.com
+# ============================================================================
+https://www.google.com/search?q=test
+https://blogger.googleblog.com/
+https://www.youtube.com/results?search_query=test
+https://www.google.com/url?q=https://evil.com
+https://www.google.com/search?q=test&redirect=https://evil.com
+
+# ============================================================================
+# GITHUB (https://hackerone.com/github)
+# Scope: github.com web application
+# ============================================================================
+https://github.com/search?q=test&type=code
+https://github.com/search?q=test
+https://gist.github.com/
+https://github.com/oauth/authorize?client_id=test&redirect_uri=https://evil.com
+
+# ============================================================================
+# SHOPIFY (https://hackerone.com/shopify)
+# Scope: *.myshopify.com
+# ============================================================================
+https://www.shopify.com/search?q=test
+https://www.shopify.com/search?q=test&redirect=https://evil.com
+
+# ============================================================================
+# SLACK (https://hackerone.com/slack)
+# Scope: slack.com
+# ============================================================================
+https://slack.com/search?q=test
+https://slack.com/oauth/authorize?client_id=test&redirect_uri=https://evil.com
+
+# ============================================================================
+# MICROSOFT (https://www.microsoft.com/msrc/pages/security-research)
+# Scope: Azure, M365, Edge, Windows Insider
+# ============================================================================
+https://www.microsoft.com/search?q=test
+https://www.microsoft.com/en-us/store/search?q=test
+
+# ============================================================================
+# TESTING / SANDBOX (safe targets for practice)
+# ============================================================================
+https://httpbin.org/get?redirect=https://evil.com
+https://httpbin.org/get?url=https://evil.com
+https://httpbin.org/get?next=https://evil.com
+https://portswigger.net/web-security?q=test

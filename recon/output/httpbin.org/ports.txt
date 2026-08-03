@@ -1,0 +1,3 @@
+httpbin.org:21
+httpbin.org:443
+httpbin.org:80

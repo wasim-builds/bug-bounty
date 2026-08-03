@@ -1,0 +1,5 @@
+eu.httpbin.org
+staging.httpbin.org
+www.httpbin.org
+now.httpbin.org
+test.httpbin.org

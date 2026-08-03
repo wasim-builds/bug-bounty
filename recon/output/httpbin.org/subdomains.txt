@@ -1,0 +1,6 @@
+No assets were discovered
+eu.httpbin.org
+now.httpbin.org
+staging.httpbin.org
+test.httpbin.org
+www.httpbin.org

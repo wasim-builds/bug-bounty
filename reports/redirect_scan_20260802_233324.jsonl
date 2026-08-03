@@ -1,0 +1,8 @@
+{"url": "https://www.google.com/search?q=https%3A%2F%2Fevil.com", "param": "q", "payload": "https://evil.com", "location": "", "open_redirect": false, "status": 200}
+{"url": "https://www.google.com/search?q=%2F%2Fevil.com", "param": "q", "payload": "//evil.com", "location": "", "open_redirect": false, "status": 200}
+{"url": "https://www.google.com/search?q=http%3A%2F%2Fevil.com", "param": "q", "payload": "http://evil.com", "location": "", "open_redirect": false, "status": 200}
+{"url": "https://www.google.com/search?q=javascript%3Aalert%281%29", "param": "q", "payload": "javascript:alert(1)", "location": "", "open_redirect": false, "status": 200}
+{"url": "https://www.google.com/search?q=data%3Atext%2Fhtml%2C%3Cscript%3Ealert%281%29%3C%2Fscript%3E", "param": "q", "payload": "data:text/html,<script>alert(1)</script>", "location": "", "open_redirect": false, "status": 200}
+{"url": "https://www.google.com/search?q=https%3A%2F%2Fgoogle.com%40evil.com", "param": "q", "payload": "https://google.com@evil.com", "location": "", "open_redirect": false, "status": 200}
+{"url": "https://www.google.com/search?q=https%3A%2F%2Fevil.com%23google.com", "param": "q", "payload": "https://evil.com#google.com", "location": "", "open_redirect": false, "status": 200}
+{"url": "https://www.google.com/search?q=https%3A%2F%2Fevil.com%3Fgoogle.com", "param": "q", "payload": "https://evil.com?google.com", "location": "", "open_redirect": false, "status": 200}
