@@ -9,3 +9,6 @@ __pycache__/
 # Automation / cron logs
 logs/
 *.log
+
+# Generated hunting logs and reports (do not track)
+daily-logs/
