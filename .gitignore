@@ -1,0 +1,14 @@
+# Local secrets — never commit
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Runtime / cron logs (regenerable via automation)
+logs/
+*.log
+
+# Local test artifacts (not produced by daily_runner.sh)
+reports/test_crypto_workflow/
